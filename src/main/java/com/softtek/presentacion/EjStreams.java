@@ -46,7 +46,7 @@ public class EjStreams {
 
     public static void obtenerPrecioMinimo(AccesoADatosPreparedStatement ap1) throws SQLException, ClassNotFoundException{
 
-        List<DetallesOrdenes> ordenes = ap1.mostrarTodos(); 
+        List<DetallesOrdenes> ordenes = ap1.mostrarTodos();
 
 
         Optional<Double> precioMinimo = ordenes.stream()
